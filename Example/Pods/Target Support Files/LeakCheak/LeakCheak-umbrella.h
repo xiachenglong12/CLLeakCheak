@@ -10,7 +10,9 @@
 #endif
 #endif
 
-#import "PodTest.h"
+#import "NSObject+Leak.h"
+#import "UINavigationController+Leak.h"
+#import "UIViewController+Leak.h"
 
 FOUNDATION_EXPORT double LeakCheakVersionNumber;
 FOUNDATION_EXPORT const unsigned char LeakCheakVersionString[];

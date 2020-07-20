@@ -12,7 +12,7 @@
     "xiacl": "xiacl@ect888.com"
   },
   "source": {
-    "git": "https://github.com/xiacl/LeakCheak.git",
+    "git": "https://github.com/xiachenglong12/CLLeakCheak.git",
     "tag": "0.1.0"
   },
   "platforms": {

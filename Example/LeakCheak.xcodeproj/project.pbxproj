@@ -300,21 +300,17 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-LeakCheak_Tests/Pods-LeakCheak_Tests-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-LeakCheak_Tests/Pods-LeakCheak_Tests-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/FBSnapshotTestCase/FBSnapshotTestCase.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSnapshotTestCase.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LeakCheak_Tests/Pods-LeakCheak_Tests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LeakCheak_Tests/Pods-LeakCheak_Tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		65AF8C40AF80639C116C0CBE /* [CP] Check Pods Manifest.lock */ = {
@@ -344,21 +340,17 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-LeakCheak_Example/Pods-LeakCheak_Example-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-LeakCheak_Example/Pods-LeakCheak_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/LeakCheak/LeakCheak.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LeakCheak.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LeakCheak_Example/Pods-LeakCheak_Example-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LeakCheak_Example/Pods-LeakCheak_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		BC713E3E7A86B594F7EF012A /* [CP] Check Pods Manifest.lock */ = {

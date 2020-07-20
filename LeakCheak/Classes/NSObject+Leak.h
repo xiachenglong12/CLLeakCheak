@@ -1,8 +1,8 @@
 //
-//  PodTest.h
+//  NSObject+Leak.h
 //  HACustomer
 //
-//  Created by 夏成龙 on 2020/7/20.
+//  Created by 夏成龙 on 2020/7/16.
 //  Copyright © 2020年 夏成龙. All rights reserved.
 //
 
@@ -10,9 +10,10 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface PodTest : NSObject
+@interface NSObject (Leak)
 
-- (void)test;
++ (void)swizzingMethod:(SEL)oldSEL newSEL:(SEL)newSEL;
+- (void)willDealloc;
 
 @end
 
