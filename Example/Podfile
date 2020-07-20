@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'LeakCheak_Example' do
+  pod 'LeakCheak', :path => '../'
+
+  target 'LeakCheak_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
