@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - LeakCheak (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - LeakCheak (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  LeakCheak:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  LeakCheak: 90e5cf4cd8792a73fb5f6339c6802f49d20b2108
+
+PODFILE CHECKSUM: fb9e4edddecc4e01783326e8bacd94b6aed70bfe
+
+COCOAPODS: 1.5.3

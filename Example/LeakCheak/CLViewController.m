@@ -7,6 +7,7 @@
 //
 
 #import "CLViewController.h"
+#import <LeakCheak/PodTest.h>
 
 @interface CLViewController ()
 
@@ -17,7 +18,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+	
+    [[[PodTest alloc] init] test];
 }
 
 - (void)didReceiveMemoryWarning

@@ -37,7 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0F015300E39FB8CADBC9345A /* LeakCheak.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = LeakCheak.podspec; path = ../LeakCheak.podspec; sourceTree = "<group>"; };
+		0F015300E39FB8CADBC9345A /* LeakCheak.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LeakCheak.podspec; path = ../LeakCheak.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		1D21B790EF49E18007A3125F /* Pods-LeakCheak_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeakCheak_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-LeakCheak_Example/Pods-LeakCheak_Example.release.xcconfig"; sourceTree = "<group>"; };
 		47AC214A7CEAB106F12A6AFA /* Pods-LeakCheak_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeakCheak_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LeakCheak_Example/Pods-LeakCheak_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* LeakCheak_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeakCheak_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -63,9 +63,9 @@
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8FF9B3ABEBFE12000E8C721F /* Pods-LeakCheak_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeakCheak_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LeakCheak_Tests/Pods-LeakCheak_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		9935CDF67A5998B308D58331 /* Pods_LeakCheak_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LeakCheak_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9D719CE214797655FF88EA2E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		9D719CE214797655FF88EA2E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		D3A4BE3CD846A43ED45F4C12 /* Pods-LeakCheak_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeakCheak_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LeakCheak_Tests/Pods-LeakCheak_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		DB2EC32EE4BF7391652EAED8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		DB2EC32EE4BF7391652EAED8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		F2740C2DEB67E9F5F959A228 /* Pods_LeakCheak_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LeakCheak_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
